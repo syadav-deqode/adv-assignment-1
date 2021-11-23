@@ -13,7 +13,7 @@
 */
 
 const factorialOfNumber = (n) => n > 1 ? n * factorialOfNumber(n - 1) : 1;
+const n = 3
+const output = factorialOfNumber(n)
 
-const output = factorialOfNumber(3)
-
-console.log(`Factorial is: `, output)
+console.log(`Factorial of the passed number ${n} is: `, output)
