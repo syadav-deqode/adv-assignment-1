@@ -1,0 +1,29 @@
+{
+  "name": "adv-assignment-1",
+  "version": "1.0.0",
+  "description": "All the programs of advanced assignment.",
+  "main": "function_constructor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syadav-deqode/adv-assignment-1.git"
+  },
+  "keywords": [
+    "function",
+    "constructor",
+    "closure",
+    "string",
+    "manipulation"
+  ],
+  "author": "Sumit Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syadav-deqode/adv-assignment-1/issues"
+  },
+  "homepage": "https://github.com/syadav-deqode/adv-assignment-1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
