@@ -1,7 +1,9 @@
-function Calculator(num1, num2) {
+const prompt = require('prompt-sync')();
+
+function Calculator() {
   this.read = function () {
-    this.num1 = + num1;
-    this.num2 = + num2;
+    this.num1 = + prompt('Enter num1 ');
+    this.num2 = + prompt('Enter num2 ');
   };
 
   this.sum = function () {
@@ -14,8 +16,8 @@ function Calculator(num1, num2) {
 }
 
 // Instantiate the Calculator
-const calculator = new Calculator(10, 20);
-// Calling read method to set the passed numbers
+const calculator = new Calculator();
+// Read from terminal
 calculator.read();
 // Call the sum method
 const sum = calculator.sum()
